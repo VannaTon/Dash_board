@@ -6,8 +6,8 @@ import Customer from "./pages/Customer";
 import Sidebar from "./components/SideBar";
 import CreateInvoice from "./components/CreateInvoice";
 import EditInvoice from "./components/EditInvoice";
-import { InvoiceProvider } from "./context/InvoiceContext";
-import { CustomerProvider } from "./context/CustomerContext";
+import { InvoiceProvider } from "./Context/InvoiceContext";
+import { CustomerProvider } from "./Context/CustomerContext";
 
 function App() {
   return (
