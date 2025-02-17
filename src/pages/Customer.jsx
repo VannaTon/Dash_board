@@ -7,7 +7,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
-import { CustomerContext } from "../context/CustomerContext";
+import { CustomerContext } from "../Context/CustomerContext";
 
 function Customer() {
   const { customers } = useContext(CustomerContext);

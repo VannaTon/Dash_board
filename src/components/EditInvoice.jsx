@@ -7,7 +7,7 @@ import {
   faClock,
   faCheck,
 } from "@fortawesome/free-solid-svg-icons";
-import { InvoiceContext } from "../context/InvoiceContext";
+import { InvoiceContext } from "../Context/InvoiceContext";
 
 function EditInvoice() {
   const { invoices, setInvoices } = useContext(InvoiceContext);

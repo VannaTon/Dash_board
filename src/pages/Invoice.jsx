@@ -11,7 +11,7 @@ import {
   faChevronRight,
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
-import { InvoiceContext } from "../context/InvoiceContext";
+import { InvoiceContext } from "../Context/InvoiceContext";
 
 function Invoice() {
   const { invoices, setInvoices } = useContext(InvoiceContext);

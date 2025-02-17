@@ -2,8 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faDollar, faClock, faCheck } from "@fortawesome/free-solid-svg-icons";
 import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
-import { InvoiceContext } from "../context/InvoiceContext";
-import { CustomerContext } from "../context/CustomerContext";
+import { InvoiceContext } from "../Context/InvoiceContext";
+import { CustomerContext } from "../Context/CustomerContext";
 
 function CreateInvoice() {
   const { invoices, setInvoices } = useContext(InvoiceContext);
